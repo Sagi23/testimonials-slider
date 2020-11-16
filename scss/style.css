@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+:root {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+}
+
+html {
+  width: 100%;
+  background-image: url(/images/pattern-quotes.svg), url(/images/pattern-bg.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 25% 35%, 80% 120%;
+}
+
+.grid {
+  position: relative;
+  width: 65%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-grid-columns: 10fr 5fr;
+      grid-template-columns: 10fr 5fr;
+  margin: 5em auto;
+}
+
+.avatars {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -5;
+}
+
+.slide {
+  -webkit-box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.4);
+}
+
+#testimonial {
+  font-weight: 300;
+  line-height: 1.4em;
+  margin-top: 4em;
+  color: #202046;
+}
+
+#name {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #202046;
+  max-width: 200px;
+}
+
+span {
+  font-weight: 300;
+  color: #babacf;
+}
+
+.info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.35fr 0.8fr;
+      grid-template-columns: 0.35fr 0.8fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 600px;
+  font-size: 0.8rem;
+}
+
+#prev {
+  position: absolute;
+  bottom: -1.5%;
+  left: 10%;
+  padding: 0.5em;
+  background-color: white;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+#next {
+  position: absolute;
+  bottom: -1.5%;
+  left: 18%;
+  padding: 0.5em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */
